@@ -1,7 +1,7 @@
 from random import choice
 n=int(input('enter number of players:'))
 l1=[]
-i=0
+i=1
 while(i<=n):
     name=input('enter player name:')
     if name.isalpha():
