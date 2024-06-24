@@ -3,7 +3,7 @@ n=int(input('enter number of players:'))
 l1=[]
 i=1
 while(i<=n):
-    name=input('enter player name:')
+    name=input(f'enter player {i} name:')
     if name.isalpha():
         l1.append(name)
         i=i+1
